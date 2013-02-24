@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Test asyncFlow functions</title>
+		<style>
+			body
+			{
+				background-color: #fffdfa;
+				width: 882px;
+				position: relative;
+				margin: 0px auto;
+			}
+			.function 
+			{
+				float: left;
+				position: relative;
+				width: 275px;
+				height: 350px;
+				padding-right: 15px;
+				text-align: left;
+				font-size: small;
+				margin: 2px;
+				box-shadow: inset 0 0 20px #d3cdc4;
+				background-color: #f0eae2;
+			}
+			.functionHead
+			{
+				text-align: center;
+			}
+			#title
+			{
+				text-align: center;
+				font-weight: bolder;
+				font-size: xx-large;
+				margin-top: 30px;
+				margin-bottom: 10px;
+				text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+			}
+			#author
+			{
+				text-align: center;
+				margin-bottom: 30px;
+			}
+		</style>
+		<script src="asyncFlow.js"></script>
+		<script src="asyncfunktionen.js"></script>
+		<script src="testFlow.js"></script>
+		
+		
+
+	</head>
+	<body>
+		<div>
+			<div id="title">Test asyncFlow functions</div>
+			<div id="author">by: Henrik Holmgren</div>
+		</div>
+		<div id="functions">
+			<div>
+				<div class="function" id="serialExecute1">
+					<div class="functionHead">
+						<h2>serialExecute<h2>
+						<button name="serialExecute1" id="serialExecute_button1">Execute!</button>
+					</div>
+					<div>
+						<ul id="serialExecute_list1"></ul>
+					</div>
+				</div>
+				<div class="function" id="serialExecute2">
+					<div class="functionHead">
+						<h2>serialExecute<h2>
+						<button name="serialExecute2" id="serialExecute_button2">Execute!</button>
+					</div>
+					<div>
+						<ul id="serialExecute_list2"></ul>
+					</div>
+				</div>
+				<div class="function" id="serialExecute3">
+					<div class="functionHead">
+						<h2>serialExecute<h2>
+						<button name="serialExecute3" id="serialExecute_button3">Execute!</button>
+					</div>
+					<div>
+						<ul id="serialExecute_list3"></ul>
+					</div>
+				</div>		
+			</div>
+			<div>
+				<div class="function" id="parallelExecute1">
+					<div class="functionHead">
+						<h2>parallelExecute<h2>
+						<button name="parallelExecute1" id="parallelExecute_button1">Execute!</button>
+					</div>
+					<div>
+						<ul id="parallelExecute_list1"></ul>
+					</div>
+				</div>
+				<div class="function" id="parallelExecute2">
+					<div class="functionHead">
+						<h2>parallelExecute<h2>
+						<button name="parallelExecute2" id="parallelExecute_button2">Execute!</button>
+					</div>
+					<div>
+						<ul id="parallelExecute_list2"></ul>
+					</div>
+				</div>
+				<div class="function" id="parallelExecute3">
+					<div class="functionHead">
+						<h2>parallelExecute<h2>
+						<button name="parallelExecute3" id="parallelExecute_button3">Execute!</button>
+					</div>
+					<div>
+						<ul id="parallelExecute_list3"></ul>
+					</div>
+				</div>		
+			</div>
+			<div>
+				<div class="function" id="parallelExecute_withLimit1">
+					<div class="functionHead">
+						<h2>parallelExecute_withLimit<h2>
+						<button name="parallelExecute_withLimit1" id="parallelExecute_withLimit_button1">Execute!</button>
+					</div>
+					<div>
+						<ul id="parallelExecute_withLimit_list1"></ul>
+					</div>
+				</div>
+				<div class="function" id="parallelExecute_withLimit2">
+					<div class="functionHead">
+						<h2>parallelExecute_withLimit<h2>
+						<button name="parallelExecute_withLimit2" id="parallelExecute_withLimit_button2">Execute!</button>
+					</div>
+					<div>
+						<ul id="parallelExecute_withLimit_list2"></ul>
+					</div>
+				</div>
+				<div class="function" id="parallelExecute_withLimit3">
+					<div class="functionHead">
+						<h2>parallelExecute_withLimit<h2>
+						<button name="parallelExecute_withLimit3" id="parallelExecute_withLimit_button3">Execute!</button>
+					</div>
+					<div>
+						<ul id="parallelExecute_withLimit_list3"></ul>
+					</div>
+				</div>		
+			</div>
+		</div>
+	</body>
+</html>
