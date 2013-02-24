@@ -1,5 +1,5 @@
 {
-  "name"          : "asFlow",
+  "name"          : "asflow",
   "description"   : "Asynchronous flow control library for JavaScript and Nodejs",
   "homepage"      : "https://github.com/hholmgren/asFlow.git",
   "keywords"      : ["async", "asynchronous", "flow", "control", "serial", "parallel", "limit"],
