@@ -1,5 +1,12 @@
 {
-	"name": "asFlow",
-	"version": "0.0.1",
-	"dependencies": {} 
+  "name"          : "asFlow",
+  "description"   : "Asynchronous flow control library for JavaScript and Nodejs",
+  "homepage"      : "https://github.com/hholmgren/asFlow.git",
+  "keywords"      : ["async", "asynchronous", "flow", "control", "serial", "parallel", "limit"],
+  "author"        : "Henrik Holmgren <hholmgren@me.com>",
+  "repository"    : {"type": "git", "url": "https://github.com/hholmgren/asFlow.git"},
+  "main"          : "asflow.js",
+  "version"       : "0.0.1",
+  "devDependencies": {},
+  "scripts": {}
 }
