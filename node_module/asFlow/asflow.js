@@ -1,37 +1,3 @@
-// **************************************************************************************** Example of function in the functions array
-//
-// var function0 = function(optionalArgs0, optionalArgs1 ... optionalArgsN, call) {
-//			call.currentResults(); -> array of collected results at the moment sortet as functions array
-//			call.parentResult(); -> result passed by function above current in functions array
-//			call.resultByFunction(i); -> result passed by specific function from the functions array
-//
-//			call.back(optionalResult); -> Is required when the function returns and it will deliver the result to the results array
-//		};
-//
-//
-// ***************************************************************************************************** Example of the function array
-//
-// var functions = [
-//			function0,
-//			function1, [argument0, argument1 ... argumentN],
-//			function3,
-//			function4,
-//			function5, [argument0, argument1 ... argumentN]
-//		];
-//
-//
-// ******************************************************************************************* Example of executing the flow functions
-//
-// var optionalCallback = function(results) {
-//		Do what anything with the results array if you choose!
-// };
-// asFlow.serialExecute(functions, optionalCallback);
-// asFlow.parallelExecute(functions, optionalCallback);
-// asFlow.parallelExecute_withLimit(functions, 3, optionalCallback);
-//
-//
-// ***********************************************************************************************************************************
-
 var asFlow = {}, spliceAndVerify,
 	serialExecute, parallelExecute, parallelExecute_withLimit;
 
