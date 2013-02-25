@@ -13,6 +13,9 @@ USAGE:
 <b>1. CREATE YOUR FUNCTIONS</b>
 ```javascript
 var function0 = function(optionalArgs0, optionalArgs1 ... optionalArgsN, call) {
+  
+  // Your code...
+  
   call.currentResults();      // Returns and array of collected results at the moment sortet as the list of functions
   call.parentResult();        // Returns the result passed by the function above current in the list of functions
   call.resultByFunction(i);   // Returns specific result from a function in the list of functions
