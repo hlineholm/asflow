@@ -25,15 +25,15 @@
 // var optionalCallback = function(results) {
 //		Do what anything with the results array if you choose!
 // };
-// asyncFlow.serialExecute(functions, optionalCallback);
-// asyncFlow.parallelExecute(functions, optionalCallback);
-// asyncFlow.parallelExecute_withLimit(functions, 3, optionalCallback);
+// asFlow.serialExecute(functions, optionalCallback);
+// asFlow.parallelExecute(functions, optionalCallback);
+// asFlow.parallelExecute_withLimit(functions, 3, optionalCallback);
 //
 //
 // ***********************************************************************************************************************************
 
 
-var asyncFlow = (function() {
+var asFlow = (function() {
 	"use strict";
 	var spliceAndVerify, serialExecute, parallelExecute, parallelExecute_withLimit;
 	spliceAndVerify = function(functions) {
