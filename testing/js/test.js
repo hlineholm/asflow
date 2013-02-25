@@ -149,7 +149,7 @@ $(function() {
 					async, ["09", list], 
 					async, ["10", list]
 				];
-			asFlow.parallelExecute_withLimit(functions, "b", function(results) {
+			asFlow.parallelExecute_withLimit(functions, 3, function(results) {
 				addListItem("Results:", list);
 				addListItem("[" + results + "]", list);
 				callback();
