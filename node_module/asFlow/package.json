@@ -6,7 +6,7 @@
   "author"        : "Henrik Holmgren <hholmgren@me.com>",
   "repository"    : {"type": "git", "url": "https://github.com/hholmgren/asFlow.git"},
   "main"          : "asflow.js",
-  "version"       : "0.0.1",
+  "version"       : "0.0.2",
   "devDependencies": {},
   "scripts": {}
 }
