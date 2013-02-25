@@ -109,7 +109,7 @@ $(function() {
 			async, ["08", list], 
 			async, ["09", list], 
 			async, ["10", list]];
-			asyncFlow.serialExecute(functions, function(results) {
+			asFlow.serialExecute(functions, function(results) {
 				addListItem("Results:", list);
 				addListItem("[" + results + "]", list);
 				callback();
@@ -129,7 +129,7 @@ $(function() {
 					async, ["09", list], 
 					async, ["10", list]
 			];
-			asyncFlow.parallelExecute(functions, function(results) {
+			asFlow.parallelExecute(functions, function(results) {
 				addListItem("Results:", list);
 				addListItem("[" + results + "]", list);
 				callback();
@@ -149,7 +149,7 @@ $(function() {
 					async, ["09", list], 
 					async, ["10", list]
 				];
-			asyncFlow.parallelExecute_withLimit(functions, "b", function(results) {
+			asFlow.parallelExecute_withLimit(functions, "b", function(results) {
 				addListItem("Results:", list);
 				addListItem("[" + results + "]", list);
 				callback();
